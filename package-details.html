@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Package Details</title>
+</head>
+<body>
+  <section class="package-details container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 id="package-title"></h2>
+        <p><strong>Duration:</strong> <span id="package-duration"></span></p>
+        <p><strong>Price:</strong> <span id="package-price"></span></p>
+        <p><strong>Details:</strong> <span id="package-details"></span></p>
+      </div>
+    </div>
+  </section>
+
+  <script>
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const packageIndex = parseInt(urlParams.get('index'));
+const packages = [
+    {
+      imageUrl: "assets/images/packages/pack1.jpg",
+      title: "Tokyo - 4 Days in Korea, Entertica",
+      duration: "4 Days 3 Nights",
+      price: "$1450",
+    },
+    {
+      imageUrl: "assets/images/packages/pack2.jpg",
+      title: "Tokyo - 4 Days in Korea, Entertica",
+      duration: "4 Days 3 Nights",
+      price: "$1450",
+    },
+    {
+      imageUrl: "assets/images/packages/pack3.jpg",
+      title: "Tokyo - 4 Days in Korea, Entertica",
+      duration: "4 Days 3 Nights",
+      price: "$1450",
+    },
+    {
+      imageUrl: "assets/images/packages/pack4.jpg",
+      title: "Tokyo - 4 Days in Korea, Entertica",
+      duration: "4 Days 3 Nights",
+      price: "$1450",
+    },
+    {
+      imageUrl: "assets/images/packages/pack5.jpg",
+      title: "Tokyo - 4 Days in Korea, Entertica",
+      duration: "4 Days 3 Nights",
+      price: "$1450",
+    },
+    {
+      imageUrl: "assets/images/packages/pack6.jpg",
+      title: "Tokyo - 4 Days in Korea, Entertica",
+      duration: "4 Days 3 Nights",
+      price: "$1450",
+    },
+  ];
+    const package = packages[packageIndex];
+    if (package) {
+      document.getElementById('package-title').textContent = package.title;
+      document.getElementById('package-duration').textContent = package.duration;
+      document.getElementById('package-price').textContent = package.price;
+      document.getElementById('package-details').textContent = package.details;
+    }
+  </script>
+</body>
+</html>
