@@ -342,7 +342,63 @@ header {
       padding-bottom: 10px; } }
 
 /* ===================================== Slider Style Starts Here ===================================== */
-.slider-detail {
+.slider {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh; /* Ajustez la hauteur selon vos besoins */
+  position: relative;
+}
+
+.slide {
+  
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.5s ease; /* Transition d'opacité pour un fondu enchaîné */
+}
+
+.titleHero {
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  height: 100vh;
+  color: white;
+  flex-direction: column; /* Ajustez la hauteur selon vos besoins */
+}
+.titleHero h1{
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+}
+.titleHero p{
+padding: 15px;
+}
+
+
+
+.slide:first-child {
+  margin-left: 0;
+}
+
+.slide:not(:first-child) {
+  margin-left: -100%; /* Cache les images suivantes */
+  opacity: 0; /* Assurez-vous que les images suivantes sont transparentes */
+}
+
+@media screen and (max-width: 767px) {
+  .slider{
+
+    height: 400px;
+    
+  }
+  .titleHero h1{
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+  }
+}
+/* .slider-detail {
   padding-top: 130px;
   z-index: -9; }
   @media screen and (max-width: 992px) {
@@ -408,7 +464,7 @@ header {
     text-align: center;
     padding: 6px; }
     .slider-detail .carousel-control-next-icon i {
-      font-size: 1.1rem; }
+      font-size: 1.1rem; } */
 
 /* ===================================== Search Box Style Starts Here ===================================== */
 .search-container {
@@ -698,5 +754,50 @@ header {
 
 .our-team .team-row .single-usr .det-o i {
   color: #FFF; }
+/* Ajot de css  */
+
+
+
+
+
+
+.container-package {
+  position: relative; /* Ajout de position relative pour que les éléments restent à l'intérieur */
+  z-index: 1; /* Assure que le contenu reste au-dessus de l'overlay */
+
+}
+
+.header-package {
+  text-align: center;
+  margin-top: 20px; /* Marge ajoutée au lieu de margin-bottom */
+  color: black;
+}
+
+.tour-info {
+  color: black;
+  padding: 20px;
+}
+
+.tour-info h2 {
+  color: black;
+}
+
+.tour-info p {
+  margin: 10px 0;
+  color: black;
+}
+
+.btn-book {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-book:hover {
+  background-color: #0056b3;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -140,101 +140,101 @@ header{
 
 /* ===================================== Slider Style Starts Here ===================================== */
 
-.slider-detail{
-    padding-top: 130px;
-    z-index: -9;
-    @media screen and (max-width: 992px){
+// .slider-detail{
+//     padding-top: 130px;
+//     z-index: -9;
+//     @media screen and (max-width: 992px){
        
-        .container{
-            padding: 0px;
-        }
-    }
-    @media screen and (max-width: 767px){
-         padding-top: 120px;
-    }
-    @media screen and (max-width: 576px){
+//         .container{
+//             padding: 0px;
+//         }
+//     }
+//     @media screen and (max-width: 767px){
+//          padding-top: 120px;
+//     }
+//     @media screen and (max-width: 576px){
            
-    }
-    .carousel-caption{
-        text-align: left;
-        bottom: 110px;
-        text-align: center;
-        @media screen and (max-width: 991px){
-            bottom: 10px;
-            h5{
-                font-size: 28px;
-            }
-        }
-        @media screen and (max-width: 800px){
-            h5{
-                font-size: 18px;
-            }
-        }
-        h5{
-            font-size: 44px;
-            margin-left: -40px;
-            font-weight: 600;
-            color: #fff;
-        }
-        p{
-            margin-left: -40px;
-            font-weight: 500;
-            margin-top: 40px;
-            font-size: 16px;
-             color: #fff;
-        }
-    }
-    .vbh{
-        margin-left: -40px;
-        text-align: center;
-        display: block;
-        .btn{
-            padding: 10px 30px;
-            margin-top: 40px;
-           font-weight: 600;
-            font-size: 18px;
-        }
-    }
-    .vdg-cur{
-        color: #ffffff;
-    }
-    .fvgb{
-        color: #ffffff;
-    }
-    .carousel-control-prev{
-        opacity: 1;
-    }
-    .carousel-control-prev-icon{
-        background-image: none;
-        background-color: $color-primary;
-        width: 35px;
-        height: 35px;
-        text-align: center;
-        padding: 6px;
-        i{
-            font-size: 1.1rem;
-        }
+//     }
+//     .carousel-caption{
+//         text-align: left;
+//         bottom: 110px;
+//         text-align: center;
+//         @media screen and (max-width: 991px){
+//             bottom: 10px;
+//             h5{
+//                 font-size: 28px;
+//             }
+//         }
+//         @media screen and (max-width: 800px){
+//             h5{
+//                 font-size: 18px;
+//             }
+//         }
+//         h5{
+//             font-size: 44px;
+//             margin-left: -40px;
+//             font-weight: 600;
+//             color: #fff;
+//         }
+//         p{
+//             margin-left: -40px;
+//             font-weight: 500;
+//             margin-top: 40px;
+//             font-size: 16px;
+//              color: #fff;
+//         }
+//     }
+//     .vbh{
+//         margin-left: -40px;
+//         text-align: center;
+//         display: block;
+//         .btn{
+//             padding: 10px 30px;
+//             margin-top: 40px;
+//            font-weight: 600;
+//             font-size: 18px;
+//         }
+//     }
+//     .vdg-cur{
+//         color: #ffffff;
+//     }
+//     .fvgb{
+//         color: #ffffff;
+//     }
+//     .carousel-control-prev{
+//         opacity: 1;
+//     }
+//     .carousel-control-prev-icon{
+//         background-image: none;
+//         background-color: $color-primary;
+//         width: 35px;
+//         height: 35px;
+//         text-align: center;
+//         padding: 6px;
+//         i{
+//             font-size: 1.1rem;
+//         }
 
-    }
+//     }
     
-    .carousel-control-next{
-        opacity: 1;
-    }
-    .carousel-control-next-icon{
-        background-image: none;
-        background-color: $color-primary;
-        width: 35px;
-        height: 35px;
-        text-align: center;
-        padding: 6px;
-        i{
-            font-size: 1.1rem;
-        }
+//     .carousel-control-next{
+//         opacity: 1;
+//     }
+//     .carousel-control-next-icon{
+//         background-image: none;
+//         background-color: $color-primary;
+//         width: 35px;
+//         height: 35px;
+//         text-align: center;
+//         padding: 6px;
+//         i{
+//             font-size: 1.1rem;
+//         }
 
-    }
+//     }
     
     
-}
+// }
 
 /* ===================================== Search Box Style Starts Here ===================================== */
 
