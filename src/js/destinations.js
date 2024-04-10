@@ -1,4 +1,4 @@
-const packages = [
+const destinations= [
     {
       imageUrl: "assets/images/packages/pack1.jpg",
       title: "Ouidah - La route de l'esclavage",
